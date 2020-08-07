@@ -18,6 +18,7 @@ import dash_table
 
 
 app = dash.Dash(__name__, external_stylesheets=['assets/stylesheet.css'])
+server=app.server
 
 ##################### Loading Data Frame####################################################################################
 
